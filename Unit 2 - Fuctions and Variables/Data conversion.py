@@ -9,3 +9,12 @@ h = "2.54"      #string -> float
 i = 100         #int -> float
 j = 10.0        #float -> int
 k = 254         #int -> byte
+# activity start
+Num_str = str(a) # a
+print(Num_str)
+
+num_float = str(b) # b
+print(num_float)
+
+num = int(c) # c
+print(num)
