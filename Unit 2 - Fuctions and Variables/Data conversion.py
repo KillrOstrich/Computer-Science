@@ -18,3 +18,27 @@ print(num_float)
 
 num = int(c) # c
 print(num)
+
+bool_val = bool(d) # d
+print(bool_val)
+
+bool_str = str(e) # e
+print(bool_str)
+
+bool_str2 = str(f) # f
+print(bool_str2)
+
+num2 = int(g) # g
+print(num2)
+
+str_float = float(h) # h
+print(str_float)
+
+num_float2 = float(i) # i
+print(num_float2)
+
+float_num = int(j) # j
+print(float_num)
+
+num_byte = bin(k) # k
+print(num_byte)
