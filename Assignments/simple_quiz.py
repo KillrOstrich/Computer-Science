@@ -1,5 +1,5 @@
 score = 0
-a = input("what is 5 + 10?")
+a = input("what is 5 + 10? ")
 a = int(a)
 
 if a == 15:
@@ -9,7 +9,7 @@ if a == 15:
 else:
     print("incorrect")
 
-b = input("what is 20 - 8?")
+b = input("what is 20 - 8? ")
 b = int(b)
 
 if b == 12:
@@ -19,7 +19,7 @@ if b == 12:
 else:
     print("incorrect")
 
-c = input("what is 9 x 10?")
+c = input("what is 9 x 10? ")
 c = int(c)
 
 if c == 90:
@@ -29,7 +29,7 @@ if c == 90:
 else:
     print("incorrect")
 
-d = input("what is 9 / 3?")
+d = input("what is 9 / 3? ")
 d = int(d)
 
 if d == 3:
@@ -39,7 +39,7 @@ if d == 3:
 else:
     print("incorrect")
 
-e = input("what is -9 + 8?")
+e = input("what is -9 + 8? ")
 e = int(e)
 
 if e == -1:
