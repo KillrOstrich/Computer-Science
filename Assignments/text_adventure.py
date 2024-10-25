@@ -100,8 +100,8 @@ def gs(): #the great sword option
     print("suddenly the blade erupts in an inferno blaze!")
     fmgs()
 
-def fmgs():
-    print("So begins you first mission")
+def fmgs(): #gs mission finished
+    print("So begins your first mission")
     print("kill space bugs")
     print("... wait what?")
     print("Anyway you are deployed into a jungle with normal soldiers")
@@ -121,7 +121,7 @@ def fmgs():
         print("big bug, horde, or both. try again")
         fmgs()
 
-def big_bug():
+def big_bug(): #win
     print("smart, big vs. big. the normal soldier will handle the horde")
     print("Its a struggle but you pull though and beat the big bug")
     print("Then you help the other soldiers kill the horde")
@@ -129,7 +129,7 @@ def big_bug():
     print("Status: Pest control")
     start_over
 
-def horde_bugs():
+def horde_bugs(): #death
     print("You fight the horde, it does not go well")
     print("Your slow great sword allows you to be easily overwelmed")
     print("You somehow beat the horde, but your tired and are pretty beat up")
@@ -139,7 +139,58 @@ def horde_bugs():
     print("Status: should have thought that though.")
     start_over()
 
-def both_bugs():
+def both_bugs(): #death
+    print("You tell the normal soldier to stay back as you take the horde and big bug")
+    print("you rush both and immediutly regret your decision")
+    print("you call for the soldiers for help only to see them all run away")
+    print("You died 3 of 5")
+    print("Status: not the brightest")
+
+def knives(): #death
+    print("You take the knives and mess with them")
+    print("A scientist trys telling you somthing")
+    print("you turn to look at her but one of the knives slip and enbeds itself in your leg.")
+    print("She's looking at a clipboard and says,")
+    print("those knives are choted in nerotoxion so be-")
+    print("she looks up")
+    print("-careful... oh dear")
+    print("you died 4 of 5")
+    print("Status: self assassination")
+
+def katana():
+    print("You pick up the katana its sharp, like REALLY sharp")
+    print("You make the executive decision to not toy with it")
+    fmk()
+
+def fmk():
+    print("Your first mission is destorying a robot rebellion")
+    print("You are deplyed with a large force of soldiers to clear the rebellion")
+    print("You stand at the battle feild as robots and humans charge eachother")
+    print("In the center back there is a big robot who seems to be commanding the army")
+    print("in the mid line are tanks")
+    print("And finally in the way back is artillery, but you super human eyes can tell they arnt set up yet however it wont be long")
+    an = input("What do you target: the boss, the tanks, or the artillery?")
+
+    if an.lower() == "boss":
+        robo_boss()
+
+    elif an.lower() == "tanks":
+        robo_tanks()
+
+    elif an.lower() == "artillery":
+        robo_arty()
+
+    else:
+        print("boss, tanks, or artillery. try again")
+        fmk()
+
+def robo_boss():
+    print
+
+def robo_tanks():
+    print
+
+def robo_arty():
     print
 
 def minigun(): #the minigun
