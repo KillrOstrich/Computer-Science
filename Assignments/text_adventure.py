@@ -239,7 +239,11 @@ def robo_arty():
         robo_arty()
 
 def robo_arty_to_boss():
-    print
+    print("You carge with speed down the backline. directly at the boss.")
+    print("You drive your katana though its chest.")
+    print("With one last thought it tells the tanks to fire at it. killing it and you")
+    ("Status: a life well sacrificed")
+    start_over()
 
 def robo_arty_to_tanks():
     print
