@@ -185,12 +185,63 @@ def fmk():
         fmk()
 
 def robo_boss():
-    print
+    print("You launch into what you think is an honoable duel.")
+    print("The boss takes one look at you and tells his tanks to kill you")
+    print("I don't care what you think you cant survive a tank round, let alone multible")
+    print("You died")
+    print("Status: sorely mistaken")
 
 def robo_tanks():
-    print
+    print("you lunge at the tanks carving though the battlefield walst still taking great effort to go unseen by the boss.")
+    an = input("You clean up the tanks, but now do you go for the boss or the artillery?")
+    
+    if an.lower() == "boss":
+        robo_tank_to_boss()
+    
+    elif an.lower() == "artillery":
+        robo_tank_to_arty()
+    
+    else:
+        print("boss or artillery, try again")
+        robo_tanks()
+
+def robo_tank_to_boss():
+    print("you charge the boss and fight him")
+    print("you knocked him down and ready to kill, but he laughs in your face")
+    print("You hear the wistling of artillery shells, and a cascade of booms until the whole battlefeild lays as a wasteland")
+    print("You died")
+    print("Status: shell shocked")
+    start_over()
+
+def robo_tank_to_arty():
+    print("You move fast, you still have time to knock out the artillery before their set up!")
+    print("you get to the artillery just in time they were just finishing preperations")
+    print("They were not prepared for you slicing though them like butter")
+
+    print("With the primary army locked in combat, and both the tanks and artillery down the boss is without support.")
+    print("You race to the boss and strike with a surpise attack, and a few blows later its down for good.")
+    print("Status: Stratigicly calculated")
+    start_over()
 
 def robo_arty():
+    print("You sneak to the backline, and race to the artillery.")
+    print("You get there with plenty of time to spare and decimate them.")
+    an = input("But what to hunt next? boss or tanks")
+
+    if an.lower() == "boss":
+        robo_arty_to_boss()
+
+    elif an.lower() == "tanks":
+        robo_arty_to_tanks()
+
+    else:
+        print("boss or tank, try again")
+        robo_arty()
+
+def robo_arty_to_boss():
+    print
+
+def robo_arty_to_tanks():
     print
 
 def minigun(): #the minigun
